@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>Portfolio</title>
+	<title>Portfolio Detail - Country Corn</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
@@ -55,10 +55,11 @@
 		<div class="banner_inner d-flex align-items-center">
 			<div class="container">
 				<div class="banner_content text-right">
-					<h1>My Portfolio</h1>
+					<h1>Portfolio Details</h1>
 					<div class="page_link">
 						<a href="index.html">Home</a>
 						<a href="portfolio.html">Portfolio</a>
+						<a href="portfolio-details.html">Details</a>
 					</div>
 				</div>
 			</div>
@@ -66,113 +67,62 @@
 	</section>
 	<!--================ End Portfolio Banner Area =================-->
 
-	<!--================ Start Portfolio Area =================-->
-	<section class="section_gap portfolio_area" id="work">
+	<!--================ Start Portfolio Details Area =================-->
+	<section class="portfolio_details_area section_gap">
 		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-6 text-center">
-					<div class="main-title">
-						<h1>Projects</h1>
-						<p>I build accessible, pixel-perfect digital experiences for the web.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-lg-10">
-					<div class="projects_fillter">
-						<ul class="filter list">
-							<li class="active" data-filter="*">All Projects</li>
-							<li data-filter=".frontend">Frontend Engineering</li>
-							<li data-filter=".UX-design">UX/UI Design</li>
-							<li data-filter=".design-system">Design Systems</li>
-							<li data-filter=".design-ops">Design Operations & Strategy</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="projects_inner row grid">
-				<div class="grid-sizer col-sm-6 col-md-3 col-lg-3"></div>
-				<div class="col-lg-6 col-sm-6 col-sm-12 frontend grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/swork_westpac.png" alt="">
-						<div class="projects_text">
-							<a href="portfolio-details-westpac.html">
-								<h4>Westpac Altitude Rewards</h4>
-							</a>
-							<p>Client Project on Mastercard CMS</p>
+			<div class="portfolio_details_inner">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="left_img">
+							<img class="img-fluid" src="img/works/swork_corncountry_B.png" alt="">
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-3 col-sm-6 col-sm-12 frontend UX-design design-ops grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/swork_edge.png" alt="">
-						<div class="projects_text">
-							<a href="portfolio-details-edge.html">
-								<h4>EDGE</h4>
-							</a>
-							<p>Mastercard Project</p>
+					<div class="offset-md-1 col-md-5">
+						<div class="portfolio_right_text mt-30">
+							<h4>Country Corn</h4>
+							<h5>Project Overview</h5>
+							<p>Developed a robust, high-performance digital presence for Country Corn Australia, a leading frozen produce supplier. The goal was to create a unified brand hub that bridges the gap between their wholesale operations (Harvestime) and their direct-to-consumer retail arm (Frozberries).</p>
+							<ul class="list">
+								<li><span>Client</span>: Country Corn</li>
+								<li><span>Website</span>: <a href="https://countrycorn.com.au/" target="_blank">https://countrycorn.com.au/</a></li>
+							</ul>							
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-3 col-sm-6 frontend UX-design design-ops grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/swork_POGS.png" alt="">
-						<div class="projects_text">
-							<a href="portfolio-details-pogs.html">
-								<h4>POGS</h4>
-							</a>
-							<p>Mastercard Project</p>
+				</div>					
+				<div class="row">					
+					<div class="col-md-12">
+						<div class="portfolio_content">		
+							<h5>The Challenge</h5>
+							<p>The client needed a modern, mobile-responsive interface that could effectively communicate their 15+ years of industry excellence while providing clear "call-to-action" paths for two distinct user bases: home shoppers and commercial businesses.</p>
+							<h5>Technical Stack & Features</h5>
+							<ul class="bullet">
+								<li><span>Core Engine:</span> WordPress CMS (v6.9.1) for flexible content management. Mobile optimise.</li>
+								<li><span>Architecture</span>: Custom-developed theme utilizing <strong>WPBakery Page Builder</strong> for bespoke grid layouts and section designs.</li>
+								<li><span>Performance & UI:</span>
+									<ul class="bullet">
+										<li><span>SVG Integration:</span>Implementation of lightweight vector graphics for contact and social icons to ensure crisp rendering on retina displays.</li>
+										<li><span>Typography</span>: Integration of Google Fonts (Poppins & Pacifico) to balance corporate professionalism with a friendly, "farm-fresh" aesthetic.</li>
+										<li><span>Responsive Design</span>: Mobile-first CSS architecture with custom breakpoints for seamless browsing across all devices.</li>
+									</ul>
+								</li>
+								<li><span>SEO & Data</span>: * Comprehensive <strong>Schema.org (JSON-LD)</strong> integration to enhance local search visibility and "Organization" rich snippets.
+								Open Graph (OG) meta-tagging for optimized social media sharing.</li>
+							</ul>
 						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-sm-6 frontend UX-design grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/swork_carbon_calculator.png" alt="">
-						<div class="projects_text">
-							<a href="portfolio-details-carbon-calculator.html">
-								<h4>Carbon Calculator</h4>
-							</a>
-							<p>Mastercard Project</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-sm-6 frontend UX-design grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/swork_corncountry.png" alt="">
-						<div class="projects_text">
-							<a href="portfolio-details-country-corn.html">
-								<h4>Country Corn</h4>
-							</a>
-							<p>Freelance Project</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-sm-6 frontend UX-design design-system grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/swork_made.png" alt="">
-						<div class="projects_text">
-							<a href="portfolio-details-made-ui.html">
-								<h4>Made UI</h4>
-							</a>
-							<p>Mastercard Project</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-sm-6 frontend UX-design grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/swork_newsletter.png" alt="">
-						<div class="projects_text">
-							<a href="portfolio-details-newsletter.html">
-								<h4>Newsletter</h4>
-							</a>
-							<p>Mastercard Project</p>
-						</div>
+						<div class="portfolio_content other_projedcts">
+							<h5>Other Freelance Projects</h5>
+							<div class="container">
+								<div class="row g-3">
+									<div class="col"><div class="p-3"><a href="https://sydneyfloatcentre.com.au/" target="_blank"><img src="img/brands/logo_sydney_float_center.png" alt=""></a></div></div>
+								</div>
+							</div>
+						</div>						
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!--================ End Portfolio Area =================-->
+	<!--================ Start Portfolio Details Area =================-->
 
 	<!--================ Start Footer Area =================-->
 	<footer class="footer_area section_gap">
@@ -199,7 +149,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		</div>
 	</footer>
 	<!--================End Footer Area =================-->
-	
+
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="js/jquery-3.2.1.min.js"></script>

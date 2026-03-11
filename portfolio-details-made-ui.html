@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>Portfolio</title>
+	<title>Portfolio Detail - Made UI</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
@@ -55,10 +55,11 @@
 		<div class="banner_inner d-flex align-items-center">
 			<div class="container">
 				<div class="banner_content text-right">
-					<h1>My Portfolio</h1>
+					<h1>Portfolio Details</h1>
 					<div class="page_link">
 						<a href="index.html">Home</a>
 						<a href="portfolio.html">Portfolio</a>
+						<a href="portfolio-details.html">Details</a>
 					</div>
 				</div>
 			</div>
@@ -66,113 +67,53 @@
 	</section>
 	<!--================ End Portfolio Banner Area =================-->
 
-	<!--================ Start Portfolio Area =================-->
-	<section class="section_gap portfolio_area" id="work">
+	<!--================ Start Portfolio Details Area =================-->
+	<section class="portfolio_details_area section_gap">
 		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-6 text-center">
-					<div class="main-title">
-						<h1>Projects</h1>
-						<p>I build accessible, pixel-perfect digital experiences for the web.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-lg-10">
-					<div class="projects_fillter">
-						<ul class="filter list">
-							<li class="active" data-filter="*">All Projects</li>
-							<li data-filter=".frontend">Frontend Engineering</li>
-							<li data-filter=".UX-design">UX/UI Design</li>
-							<li data-filter=".design-system">Design Systems</li>
-							<li data-filter=".design-ops">Design Operations & Strategy</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="projects_inner row grid">
-				<div class="grid-sizer col-sm-6 col-md-3 col-lg-3"></div>
-				<div class="col-lg-6 col-sm-6 col-sm-12 frontend grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/swork_westpac.png" alt="">
-						<div class="projects_text">
-							<a href="portfolio-details-westpac.html">
-								<h4>Westpac Altitude Rewards</h4>
-							</a>
-							<p>Client Project on Mastercard CMS</p>
+			<div class="portfolio_details_inner">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="left_img">
+							<img class="img-fluid" src="img/works/swork_made.png" alt="">
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-3 col-sm-6 col-sm-12 frontend UX-design design-ops grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/swork_edge.png" alt="">
-						<div class="projects_text">
-							<a href="portfolio-details-edge.html">
-								<h4>EDGE</h4>
-							</a>
-							<p>Mastercard Project</p>
+					<div class="offset-md-1 col-md-5">
+						<div class="portfolio_right_text mt-30">
+							<h4>Made (Mastercard UI) Design System</h4>
+							<h5>Project Overview</h5>
+							<p>"Made" is Mastercard's proprietary, open-source UI developer platform and design system. The goal of the project was to create a "single source of truth" for UI components, allowing for rapid scaling and consistent design standards across the entire organization. By utilizing a <strong>Design Token</strong> framework and <strong>Storybook</strong> integration, we enabled teams to build products that are "Mastercard Good" by default, reducing production time by up to 20% and ensuring global brand alignment across thousands of digital touchpoints.</p>
+							<ul class="list">
+								<li><span>Website</span>: <a href="https://mastercard.github.io/made/" target="_blank">https://mastercard.github.io/made/</a></li>
+							</ul>								
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-3 col-sm-6 frontend UX-design design-ops grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/swork_POGS.png" alt="">
-						<div class="projects_text">
-							<a href="portfolio-details-pogs.html">
-								<h4>POGS</h4>
-							</a>
-							<p>Mastercard Project</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-sm-6 frontend UX-design grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/swork_carbon_calculator.png" alt="">
-						<div class="projects_text">
-							<a href="portfolio-details-carbon-calculator.html">
-								<h4>Carbon Calculator</h4>
-							</a>
-							<p>Mastercard Project</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-sm-6 frontend UX-design grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/swork_corncountry.png" alt="">
-						<div class="projects_text">
-							<a href="portfolio-details-country-corn.html">
-								<h4>Country Corn</h4>
-							</a>
-							<p>Freelance Project</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-sm-6 frontend UX-design design-system grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/swork_made.png" alt="">
-						<div class="projects_text">
-							<a href="portfolio-details-made-ui.html">
-								<h4>Made UI</h4>
-							</a>
-							<p>Mastercard Project</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-sm-6 frontend UX-design grid-item">
-					<div class="projects_item">
-						<img class="img-fluid w-100" src="img/works/swork_newsletter.png" alt="">
-						<div class="projects_text">
-							<a href="portfolio-details-newsletter.html">
-								<h4>Newsletter</h4>
-							</a>
-							<p>Mastercard Project</p>
+				</div>					
+				<div class="row">					
+					<div class="col-md-12">
+						<div class="portfolio_content">
+							<h5>My Role & Responsibilities</h5>
+								<p>As a Senior Frontend Developer and UI System Architect, I was responsible for the technical evolution and adoption of the Made framework:</p>
+								<ul class="bullet">
+									<li><span>Feature Engineering & Enhancements</span>: I led the development of new feature requests, building complex UI components in <strong>React</strong> that were then deployed across the global Made family of design systems.</li>
+									<li><span>Design Token Implementation</span>: I managed the design token framework, which allows design decisions (like color, spacing, and typography) to scale automatically across the organization without manual code updates.</li>
+									<li><span>Storybook Integration & UI Controls</span>: I added Storybook controls to each Made component. This provided a graphical UI that allowed non-developers (like Product Managers) to interact with and test component arguments dynamically without writing a single line of code.</li>								
+									<li><span>Global Localization & Accessibility</span>: I implemented support for <strong>multi-language</strong> fonts, adding specific font packages to the Made core to ensure that products could be translated and localized for any market globally.</li>
+									<li><span>QA & Quality Governance</span>: I performed rigorous QA testing to ensure that all components met Mastercard's high standards for performance, security, and accessibility before they were released to the developer community.</li>
+								</ul>
+							<h5>Technical Skills Applied</h5>
+								<p>This project highlights your expertise in high-level frontend architecture and "DesignOps":</p>
+								<ul class="bullet">
+									<li><span>Core Frameworks</span>: Advanced React, JavaScript (ES6+), and HTML5/CSS3.</li>
+									<li><span>Systems Architecture</span>: Design Tokens and Storybook.</li>
+									<li><span>Tools & Version Control</span>: Git (collaborative branch management), Figma (design-to-code synchronization), and JSON (for token management).</li>
+								</ul>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!--================ End Portfolio Area =================-->
+	<!--================ Start Portfolio Details Area =================-->
 
 	<!--================ Start Footer Area =================-->
 	<footer class="footer_area section_gap">
@@ -199,7 +140,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		</div>
 	</footer>
 	<!--================End Footer Area =================-->
-	
+
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="js/jquery-3.2.1.min.js"></script>

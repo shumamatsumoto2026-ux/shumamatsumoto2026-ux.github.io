@@ -37,7 +37,7 @@
     items: 1,
     autoplay: 2500,
     autoplayTimeout: 5000,
-    loop: true,
+    loop: false,
     nav: false,
     dots: false
   });
