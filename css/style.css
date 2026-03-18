@@ -558,6 +558,9 @@ button:focus {
   @media (max-width: 991px) {
     .portfolio_details_inner .portfolio_right_text {
       margin-top: 0px; } }
+  @media (max-width: 766px) {
+    .portfolio_details_inner .portfolio_right_text {
+      margin-top: 50px; } }      
   @media (max-width: 576px) {
     .portfolio_details_inner .portfolio_right_text {
       margin-top: 50px; } }
